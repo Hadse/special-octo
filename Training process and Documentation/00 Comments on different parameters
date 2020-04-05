@@ -1,1 +1,9 @@
+Har gjort litt testing med forskjellige parametere, men holdt oss til å kun endre batch_size og Learning_rate. 
+Kommer tydlig fram at learningrate har mest å si. Litt for stor og den finner ingen generalisering, mens med 
+litt for liten så blir den stuck i et local minimum. 
+
+0.001 som også var lr i lab 7 sitt eksempel på MNIST viste seg og være best, men konkurerte med 0.0005. 
+Dette avhenget av Batch_Size. Med lav Batch_Size så var 0.0005 best. Det vil si både med 
+batch size 4 og 12 var 0.0005 best. Mens når batch_size kom opp i 32 - som også ga det beste resultatet
+var det 0.001 i learning rate som var best. 
 
